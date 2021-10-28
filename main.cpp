@@ -66,8 +66,6 @@ int main() {
     srand(time(0));
     system("cls");
 
-    unit_test();
-
     int variant;
 
     do {
