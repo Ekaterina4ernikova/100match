@@ -7,11 +7,11 @@ FLAGS =-Wall -std=c++11
 
 all: $(BIN_DIR)/main
 
-$(BIN_DIR)/main: main.o $(BUILD_DIR)/check_number.o
-	g++ $(FLAGS) main.o $(BUILD_DIR)/check_number.o -o $(BIN_DIR)/main
+$(BIN_DIR)/main: 100math.o $(BUILD_DIR)/check_number.o
+	g++ $(FLAGS) 100math.o $(BUILD_DIR)/check_number.o -o $(BIN_DIR)/main
 
-$(BUILD_DIR)/main.o:
-	g++ $(FLAGS) -c main.cpp -o $(BUILD_DIR)/main.o
+$(BUILD_DIR)/100math.o:
+	g++ $(FLAGS) -c main.cpp -o $(BUILD_DIR)/100math.o
 	
 $(BUILD_DIR)/check_number.o:
 	g++ $(FLAGS) -c check_number.cpp -o $(BUILD_DIR)/check_number.o
