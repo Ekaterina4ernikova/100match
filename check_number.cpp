@@ -1,4 +1,4 @@
-#include "100 спичек.h"
+#include "100math.h"
 
 bool check_number_match(int n_pl_match, int quant)
 {
@@ -7,7 +7,7 @@ bool check_number_match(int n_pl_match, int quant)
         check = true;
     else
     {
-        std::cout << "Неверно! Повторите ввод!\n";
+        std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ! пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ!\n";
         check = false;
     }
     return check;

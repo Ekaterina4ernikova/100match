@@ -2,7 +2,6 @@
 
 BIN_DIR = ./bin
 BUILD_DIR = ./build
-SRC_DIR = ./"100 спичек"
 TEST_DIR = ./test
 FLAGS =-Wall -std=c++11
 

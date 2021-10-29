@@ -1,5 +1,5 @@
 ﻿
-#include "100 спичек.h"
+#include "100math.h"
 
 
 using namespace std;
