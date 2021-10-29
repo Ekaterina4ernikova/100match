@@ -1,4 +1,4 @@
-#include "100math.h"
+#include "function.h"
 #define CATCH_CONFIG_MAIN
 #include "../catch/catch.hpp"
 
