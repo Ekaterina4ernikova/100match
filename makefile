@@ -11,7 +11,7 @@ $(BIN_DIR)/main: 100math.o $(BUILD_DIR)/check_number.o
 	g++ $(FLAGS) 100math.o $(BUILD_DIR)/check_number.o -o $(BIN_DIR)/main
 
 $(BUILD_DIR)/100math.o:
-	g++ $(FLAGS) -c main.cpp -o $(BUILD_DIR)/100math.o
+	g++ $(FLAGS) -c 100math.cpp -o $(BUILD_DIR)/100math.o
 	
 $(BUILD_DIR)/check_number.o:
 	g++ $(FLAGS) -c check_number.cpp -o $(BUILD_DIR)/check_number.o
