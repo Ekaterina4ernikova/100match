@@ -1,1 +1,5 @@
-﻿  100 спичек.vcxproj -> C:\Users\1\Documents\GitHub\Game100matches\100 спичек\Debug\100 спичек.exe
+﻿  main.cpp
+C:\Users\1\Documents\GitHub\Game100matches\100 спичек\100 спичек\main.cpp(66,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  test.cpp
+  Создание кода...
+  100 спичек.vcxproj -> C:\Users\1\Documents\GitHub\Game100matches\100 спичек\Debug\100 спичек.exe
