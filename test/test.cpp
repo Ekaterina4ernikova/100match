@@ -1,4 +1,4 @@
-#include "../100 спичек.h"
+#include "../100math.h"
 #define CATCH_CONFIG_MAIN
 #include "../catch/catch.hpp"
 
