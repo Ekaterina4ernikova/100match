@@ -62,7 +62,7 @@ bool check_number_match(int n_pl_match, int quant)
         check = true;
     else
     {
-        std::cout << "�������! ��������� ����!\n";
+        std::cout << "Неверно! Повторите ввод!\n";
         check = false;
     }
     return check;
