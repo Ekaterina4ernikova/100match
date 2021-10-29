@@ -4,15 +4,18 @@
 
 TEST_CASE("Test Amount")
 {
-    REQUIRE(check_number_match(2, 100) == true);
+    bool expected = true;
+    REQUIRE(check_number_match(2, 100) == expected);
 }
 
 TEST_CASE("Test Difference")
 {
-    REQUIRE(check_number_match(10, 100) == true);
+    bool expected = true;
+    REQUIRE(check_number_match(10, 100) == expected);
 }
 
 TEST_CASE("Test Multiplication")
 {
-    REQUIRE(check_number_match(15, 100) == false);
+    bool expected = false;
+    REQUIRE(check_number_match(15, 100) == expected);
 }
