@@ -7,7 +7,7 @@ void game()
 {
   int Count, Num, Player;
   bool Correct;
-    const int InitialCount = 100;
+  const int InitialCount = 100;
   Player = 2;
   Count = InitialCount;
 
